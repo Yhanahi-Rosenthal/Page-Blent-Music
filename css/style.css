@@ -3,6 +3,19 @@ body{
     background-color: #000000;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;               /* width entero de scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #3b0842;        /* color de carrir o area */
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #ff00f2;    /* color del scroll thumb */
+    border-radius: 20px;       /* bordes del scroll thumb */
+    border: 3px solid #000000;  /* crear padding alrededor de scroll thumb */
+  }
 
 .ti{
     color: #ffffff;
@@ -255,6 +268,20 @@ legend{
     padding: 0.3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.comentario::-webkit-scrollbar {
+    width: 10px;               
+  }
+  
+.comentario::-webkit-scrollbar-track {
+    background: #000000;        
+  }
+  
+.comentario::-webkit-scrollbar-thumb {
+    background-color: #ff00f2;    
+    border-radius: 20px;      
+    border: 3px solid #000000; 
+  }
 
 /* ------------------HTML-ayuda------------------- */
 
