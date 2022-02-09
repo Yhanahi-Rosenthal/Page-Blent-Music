@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: #000000;
+    scroll-behavior: smooth #ff00ff;
 }
 
 .ti{
@@ -148,6 +149,7 @@ body{
     align-items: flex-start;
 }
 
+/*------------------FOOTER----------------------  */
 
 .footer{
     margin-top: 15%;
@@ -226,7 +228,7 @@ legend{
     border-radius: 12px;
     border-color: #ff00ff;
     padding: 0.1rem;
-    margin: 0.5rem;
+    margin: 0.5rem 1rem;
 
 }
 
@@ -243,12 +245,16 @@ legend{
 }
 
 .formulario .comentario{
-    text-align:left;
+    border-color: #ff00ff;
+    border-radius: 16px;
+    border-style: solid;
     color: white;
     background-color: #000000;
-    padding: 3rem;
     font-size: 0.7rem;
     margin: 1rem;
+    padding: 0.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 /* ------------------HTML-ayuda------------------- */
