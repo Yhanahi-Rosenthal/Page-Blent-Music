@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #5e5c00;
+    background-color: #000000;
 }
 
 .ti{
@@ -181,7 +181,7 @@ body{
     font-size: 16px;
 }
 
-/*---------- HTML-registro e iniciar sesion ----------*/
+/*---------- HTML-registro, iniciar sesion y contacto----------*/
 
 .sectionform{
     display: flex;
@@ -241,6 +241,16 @@ legend{
 .formulario .boton:hover{
     box-shadow:0rem 0.1rem 0.9rem  #ff00ff;;
 }
+
+.formulario .comentario{
+    text-align:left;
+    color: white;
+    background-color: #000000;
+    padding: 3rem;
+    font-size: 0.7rem;
+    margin: 1rem;
+}
+
 /* ------------------HTML-ayuda------------------- */
 
 .sectionAyuda{
@@ -410,7 +420,6 @@ legend{
       opacity: 1;
     }
   }
-
   
 /* parrafo del medio del HTML-nosotros*/
 
