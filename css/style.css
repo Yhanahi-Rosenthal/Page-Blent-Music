@@ -3,6 +3,20 @@ body{
     background-color: #000000;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;               /* width entero de scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #3b0842;        /* color de carrir o area */
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #ff00f2;    /* color del scroll thumb */
+    border-radius: 20px;       /* bordes del scroll thumb */
+    border: 3px solid #000000;  /* crear padding alrededor de scroll thumb */
+  }
+
 .ti{
     color: #ffffff;
     text-align: center;
@@ -148,6 +162,7 @@ body{
     align-items: flex-start;
 }
 
+/*------------------FOOTER----------------------  */
 
 .footer{
     margin-top: 15%;
@@ -181,7 +196,7 @@ body{
     font-size: 16px;
 }
 
-/*---------- HTML-registro e iniciar sesion ----------*/
+/*---------- HTML-registro, iniciar sesion y contacto----------*/
 
 .sectionform{
     display: flex;
@@ -226,7 +241,7 @@ legend{
     border-radius: 12px;
     border-color: #ff00ff;
     padding: 0.1rem;
-    margin: 0.5rem;
+    margin: 0.5rem 1rem;
 
 }
 
@@ -241,6 +256,33 @@ legend{
 .formulario .boton:hover{
     box-shadow:0rem 0.1rem 0.9rem  #ff00ff;;
 }
+
+.formulario .comentario{
+    border-color: #ff00ff;
+    border-radius: 16px;
+    border-style: solid;
+    color: white;
+    background-color: #000000;
+    font-size: 0.7rem;
+    margin: 1rem;
+    padding: 0.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.comentario::-webkit-scrollbar {
+    width: 10px;               
+  }
+  
+.comentario::-webkit-scrollbar-track {
+    background: #000000;        
+  }
+  
+.comentario::-webkit-scrollbar-thumb {
+    background-color: #ff00f2;    
+    border-radius: 20px;      
+    border: 3px solid #000000; 
+  }
+
 /* ------------------HTML-ayuda------------------- */
 
 .sectionAyuda{
@@ -410,7 +452,6 @@ legend{
       opacity: 1;
     }
   }
-
   
 /* parrafo del medio del HTML-nosotros*/
 
