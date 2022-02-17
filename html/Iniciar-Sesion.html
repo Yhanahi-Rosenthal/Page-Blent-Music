@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel = "preconnect" href = "https://fonts.googleapis.com">
     <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
@@ -32,26 +33,19 @@
     </header>
     <main>
         <section class="sectionform">
-            <fieldset>
+            <div class="secbor">
                 <legend>Iniciar Sesión</legend>
+                <br><br>
                 <ul class="formulario">
-                  <form action="form">
-                      <label for="email">Email:</label>
-                      <div>
-                          <input type="email" name="" id="" placeholder="Ingrese su Email" required>
-                      </div>
-                      <br>
-                      <label for="Password">Contraseña:</label>
-                      <div>
-                          <input type="password" name="" id="" placeholder="Ingrese una contraseña" required>
-                      </div>
-                      <br>
-                      <div>
-                          <input type="submit" value="Confirmar" placeholder="Confirmar" class="boton">
-                      </div>
-                    </form>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Email:</label>
+                        <input type="text" class="form-control p-3 mb-2 bg-black text-white border rounded-pill border border-warning" id="formGroupExampleInput" placeholder="ingrese su Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Contraseña:</label>
+                        <input type="password" class="form-control p-3 mb-2 bg-black text-white border rounded-pill border border-warning" id="formGroupExampleInput" placeholder="Contraseña">
                 </ul>
-            </fieldset>
+            </div>
         </section>
     </main>
     <footer class="footer">
@@ -68,5 +62,6 @@
             <p class="copy">Copyright 2022</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
