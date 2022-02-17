@@ -188,6 +188,18 @@ legend{
     border-color: #ff00ff;
 }
 
+.formulario .boton{
+    width: 10rem;
+    border-radius: 20px;
+    color: #ea00ff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.formulario .boton:hover{
+    box-shadow:0rem 0.1rem 0.9rem  #ff00ff;;
+}
+
 /* ------------------HTML-ayuda------------------- */
 
 .sectionAyuda{
