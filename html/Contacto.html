@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <link rel = "preconnect" href = "https://fonts.googleapis.com">
     <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
@@ -27,35 +26,35 @@
                 <p class="slach">|</p>
                 <li class="menu__user"><a href="Iniciar-Sesion.html">Iniciar Sesión</a></li> 
                 <li class="menu__user"><a href="registrarme.html">Registrarme</a></li>           
-            </ul>
-
-           
+            </ul>       
     </header>
     <main>
         <section class="sectionform">
-            <div class="secbor"> 
+            <fieldset>
                 <legend>Contactanos</legend>
-                <br>
                 <ul class="formulario">
-                    <div class="sm-3">
-                        <label for="formGroupExampleInput" class="form-label">Nombre completo:</label>
-                        <input type="text" class="form-control p-3 sm-2 bg-black text-white border rounded-pill border border-warning" id="formGroupExampleInput" placeholder="Nombre completo">
-                        <div class="sm-3">
-                            <label for="formGroupExampleInput" class="form-label">Email:</label>
-                            <input type="text" class="form-control p-3 sm-2 bg-black text-white border rounded-pill border border-warning" id="formGroupExampleInput" placeholder="ingrese su Email">
-                          </div>
+                  <form action="form">
+                      <label for="name">Nombre y Apellido:</label>
+                      <div>
+                          <input type="name" value="" placeholder="Ingrese Nombre y Apellido" required>
+                      </div>
                       <br>
-                      <div class="sm-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Deje su comentario</label>
-                        <textarea class="form-control p-3 sm-2 bg-black text-white border rounded border border-warning" id="exampleFormControlTextarea1" rows="3" placeholder="Comentario"></textarea>
+                      <label for="email">Correo electronico:</label>
+                      <div>
+                          <input type="email" name="" id="" placeholder="Ingrese su Email" required>
+                      </div>
+                      <br>
+                      <label for="contactar">Dejenos su comentario:</label>
+                      <div>
+                          <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu comentario" required class="comentario"></textarea>
                       </div>
                       <br>
                       <div>
-                        <input type="submit" value="Enviar" placeholder="Enviar" class="boton bg-black">
-                        <input type="reset" value="Borrar" placeholder="Borrar" class="boton bg-black">
-                    </div>
+                          <input type="submit" value="Confirmar" placeholder="Confirmar" class="boton">
+                      </div>
+                    </form>
                 </ul>
-            </div>             
+            </fieldset>
         </section>
     </main>
     <footer class="footer">

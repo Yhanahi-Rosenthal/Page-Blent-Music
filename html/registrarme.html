@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <link rel = "preconnect" href = "https://fonts.googleapis.com">
     <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
@@ -27,46 +26,58 @@
                 <p class="slach">|</p>
                 <li class="menu__user"><a href="Iniciar-Sesion.html">Iniciar Sesión</a></li> 
                 <li class="menu__user"><a href="registrarme.html">Registrarme</a></li>           
-            </ul>
-
-           
+            </ul>       
     </header>
     <main>
-        <section class="sectionform">
-            <div class="secbor">
-                <legend>Registrarme</legend>
-                <br><br>
-                <ul class="formulario">
-                    <label for="formGroupExampleInput" class="form-label">Nombre:</label>
-                    <input type="text" class="form-control p-3 mb-2 bg-black text-white border rounded-pill border border-warning" id="formGroupExampleInput" placeholder="Nombre completo">
-                    <div class="mb-3">
-                        <label for="formGroupExampleInput" class="form-label">Apellido:</label>
-                        <input type="text" class="form-control p-3 mb-2 bg-black text-white border rounded-pill border border-warning" id="formGroupExampleInput" placeholder="Apellido">
-                        <div class="mb-3">
-                    <div class="mb-3">
-                        <label for="formGroupExampleInput" class="form-label">Email:</label>
-                        <input type="text" class="form-control p-3 mb-2 bg-black text-white border rounded-pill border border-warning" id="formGroupExampleInput" placeholder="ingrese su Email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="formGroupExampleInput" class="form-label">Confirmar Email:</label>
-                        <input type="text" class="form-control p-3 mb-2 bg-black text-white border rounded-pill border border-warning" id="formGroupExampleInput" placeholder="Reingrese su Email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="formGroupExampleInput" class="form-label">Contraseña:</label>
-                        <input type="password" class="form-control p-3 mb-2 bg-black text-white border rounded-pill border border-warning" id="formGroupExampleInput" placeholder="Contraseña">
-                    </div>
-                    <div class="mb-3">
-                        <label for="formGroupExampleInput" class="form-label">Confirmar contraseña:</label>
-                        <input type="password" class="form-control p-3 mb-2 bg-black text-white border rounded-pill border border-warning" id="formGroupExampleInput" placeholder="Reingrese Contraseña">
-                    </div>
-                    <br>
-                    <div>
-                        <input type="submit" value="Registrarme" placeholder="Registrarme" class="boton bg-black">
-                        <input type="reset" value="Borrar datos" placeholder="Borrar datos" class="boton bg-black">
-                    </div>
-                </ul>
-            </div>
-        </section>
+        <main>
+            <section class="sectionform">
+              <fieldset>
+                  <legend>Registrarme</legend>
+                  <ul class="formulario">
+                    <form action="form">
+                        <label for="name">Nombre:</label>
+                        <div>
+                            <input type="name" value="" placeholder="Ingrese su nombre" required>
+                        </div>
+                        <br>
+                        <label for="lastname">Apellido:</label>
+                        <div>
+                            <input type="lastname" value="" placeholder="Ingrese su Apellido" required>
+                        </div>
+                        <br>
+                        <label for="email">Email:</label>
+                        <div>
+                            <input type="email" name="" id="" placeholder="Ingrese su Email" required>
+                        </div>
+                        <br>
+                        <label for="reemail">Reingrese su Email:</label>
+                        <div>
+                            <input type="reemail" name="" id="" placeholder="Reingrese su Email" required>
+                        </div>
+                        <br>
+                        <label for="Password">Contraseña:</label>
+                        <div>
+                            <input type="password" name="" id="" placeholder="Ingrese una contraseña" required>
+                        </div>
+                        <br>
+                        <label for="Confirm">Confirmar Contraseña:</label>
+                        <div>
+                            <input type="password" name="" id="" placeholder="Repita su contraseña" required>
+                        </div>
+                        <br>
+                        <label for="date">Fecha de naciemiento:</label>
+                        <div>
+                            <input type="date" name="" id="" placeholder="Fecha de nacimiento" required>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="submit" value="Registrarme" placeholder="Registrarme" class="boton">
+                            <input type="reset" value="Borrar datos" placeholder="Borrar datos" class="boton">
+                        </div>
+                      </form>
+                  </ul>
+              </fieldset>
+            </section>
     </main>
     <footer class="footer">
         <nav>
@@ -82,6 +93,5 @@
             <p class="copy">Copyright 2022</p>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
