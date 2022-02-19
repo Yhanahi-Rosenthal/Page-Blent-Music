@@ -107,6 +107,33 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
 }
 
+.section-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10%;
+  color: #ffffff;
+}
+
+.section-1 img{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 300px;
+}
+
+.section-1 h3{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.section-1 p{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .section #carouselExampleCaptions{
     margin-top: 3%;
     width: 180rem;
