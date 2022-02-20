@@ -18,7 +18,16 @@ body::-webkit-scrollbar-thumb {
   }
 
 .header{
-  font-family:'Times New Roman', Times, serif; important: !important
+  font-family:'Times New Roman', Times, serif; important: !important;
+}
+
+.header h1{
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.header h4{
+  font-size: 1.090rem;
 }
 
 .ti{
@@ -413,9 +422,19 @@ legend{
     border-color: #ff00ff;
     padding: 0;
     margin: 0.5rem;
+}
+
+.buscar-1{
+    color: #ffffff; 
+    background-color: #26042e;
+    border-style: solid;
+    border-radius: 14px;
+    border-color: #ff00ff;
+    margin: 0.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.8rem;
     line-height: none;
+    width: 11rem;
 }
 
 /*---------------------- HTML--nosotros --------------------*/
@@ -615,11 +634,112 @@ animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
         flex-direction: row;
         font-size: 0.49rem;
     }
+  
+    .section-1{
+       animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+  
+   @keyframes fade-in-bottom {
+        0% {
+          transform: translateY(50px);
+          opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  
+    .h2{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      color: #ffffff;
+    }
+  
+    .section-1{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      color: #ffffff;
+      margin-top: 8%;
+    }
+  
+    .section-1 .especial{
+       margin: 1rem;
+       padding: 2rem;
+    }
+  
+    .especial{
+      color: #ffffff;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+  
+    .especial img{
+      margin: 0;
+      padding: 0;
+      align-self: center;
+      width: 18rem;
+      height: 10rem;
+  
+    }
+  
+    .especial:hover{
+      box-shadow:0 0.1rem 0.6rem  #ff00ff;
+    }
+  
+  
+    .section-1 div{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      border: solid;
+      border-style: solid;
+      border-color: #ad00ad;
+      border-radius: 4rem;
+      background-color: #18021b;
+      padding: 2rem;
+      width: 30rem;
+    }
+  
+    .section-1 img{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      object-fit:cover;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .section-1 p{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      text-align: center;
+      font-size: 0.7rem;
+      padding: 0;
+      margin: 0rem;
+    }
+  
+    .section-1 h3{
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .section-1 a{
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+    }
 
-    .section{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+    .section-2{
+      margin-top: 13%;
+    }
+
+    .section-2 .hr{
+      margin-top: 20%;
     }
 
     .section .carousel-indicators{
@@ -845,6 +965,18 @@ animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
         box-shadow:0rem 0.1rem 0.9rem  #ff00ff;;
     }
 
+    .buscar-1{
+      color: #ffffff; 
+      background-color: #26042e;
+      border-style: solid;
+      border-radius: 14px;
+      border-color: #ff00ff;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 0.4rem;
+      line-height: none;
+      width: 4rem;
+    }
+
     .footer{
         margin-top: 50%;
     }
@@ -957,5 +1089,17 @@ animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
             width: 10rem;
             border-radius: 20px;
             color: #ea00ff;
+        }
+
+        .buscar-1{
+          color: #ffffff; 
+          background-color: #26042e;
+          border-style: solid;
+          border-radius: 14px;
+          border-color: #ff00ff;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 0.4rem;
+          line-height: none;
+          width: 4rem;
         }
 }
