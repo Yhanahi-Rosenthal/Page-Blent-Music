@@ -1,0 +1,39 @@
+.dire{
+    display: flex;
+    color: #ffffff;
+    font-size: 0.7rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.footer{
+    margin-top: 15%;
+    position:relative;
+    overflow:hidden;
+    background-color: #100813;
+    
+    a{
+        margin: 0;
+        padding: 0px;
+        width: 120px;
+        text-decoration: none;
+        color: #6a596e;
+        font-size: 16px;
+        transition: 0.5s;
+    }
+
+    a:hover{
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.9rem;
+    }
+
+    .copy{
+        padding: 0;
+        margin: 0 5px;
+        display: flex;
+        justify-content: flex-end;
+        color: #574a4a;
+        font-size: 16px;
+    }
+}

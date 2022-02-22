@@ -1,0 +1,109 @@
+.header{
+    font-family:'Times New Roman', Times, serif; important: !important;
+  
+     h1{
+        margin: 1rem;
+        font-size: 2rem;
+    }
+  
+     h4{
+        font-size: 1.090rem;
+    }
+}
+
+.ti{
+    color: #ffffff;
+    text-align: center;
+}
+
+.navegacion{
+    width: 100%;
+    margin: 30px auto;
+    background-color: #3b0842;
+    border-radius: 200rem;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.navegacion .menu input{
+    padding: 0;
+    margin-top: 7.5%;
+  }
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    border: 1px;
+    border-style:solid;
+    border-radius: 30px;
+    border-color: #ff53ff;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: flex;
+    padding: 17px 0rem;
+    color: #f0f0f0;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.menu > li > a:hover{
+    text-shadow: 0.1rem 0.2rem 1rem #ffffff;
+    color: #ffffff;
+}
+
+.slach{
+    padding: 0px 30px;
+    margin: 0;
+    color: #ffffff;
+    font-size: 2rem;
+
+}
+
+
+.registro li{
+    display: inline-block;
+    position: relative;
+}
+
+.registro li a{
+    display: flex;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.user{
+   flex-wrap: wrap;
+   color: white;
+}
+  
+.buscar{ 
+    color: #ffffff; 
+    background-color: #26042e;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #ff00ff;
+    padding: 0;
+    margin: 0.5rem;
+  }
+  
+.buscar-1{
+    color: #ffffff; 
+    background-color: #26042e;
+    border-style: solid;
+    border-radius: 14px;
+    border-color: #ff00ff;
+    margin: 0.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    line-height: none;
+    width: 11rem;
+  }

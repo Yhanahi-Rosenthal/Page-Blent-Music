@@ -1,0 +1,138 @@
+@media screen and (max-width: 321px) {
+    .sectionMusic{
+        margin: 0;
+        padding: 0;
+    }
+
+    .nosotros--img__1{
+        width: 13rem; 
+        height: 9rem;
+        display: grid;
+        grid-area: 2/2/5/4;
+        justify-content: center;
+    }
+    
+    .nosotros{
+        color: #ffffff;
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+
+        p{
+            display: grid;
+            text-align: center;
+            grid-area: 7/1/10/10;
+            font-size: 15px;
+        }
+
+        h3{
+            display: grid;
+            grid-area: 1/1/1/9;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    
+    .nosotros--img{
+        width: 13rem; 
+        height: 10rem;
+        display: grid;
+        grid-area: 2/1/5/4;
+        justify-content: center;
+    }
+
+    .nosotros--nosotros{
+        color: #ffffff;
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+
+        .nos--h3{
+            display: grid;
+            grid-area: 1/3/1/8;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .nos--p{
+            display: grid;
+            text-align: center;
+            grid-area: 7/1/10/10;
+            font-size: 15px;
+        }
+
+        .nosotros--img__1{
+            width: 13rem; 
+            height: 10rem;
+            display: grid;
+            grid-area: 2/1/5/4;
+            justify-content: center;
+        }
+    }
+
+         /* ----------HTML-INICIAR SESION Y REGRISTRARME---------- */
+
+         fieldset{
+            border-color: #ff00ff;
+            padding: 0;
+            margin: 4rem 1rem 4rem;
+        }
+        
+        legend{
+            font-size: 0.8rem;
+            color: #ffffff;
+        }
+        
+        .formulario{
+            font-size: 0.7rem;
+            margin: 1rem;
+            color: #ffffff;
+
+            input{
+                font-size: 0.7rem;
+                color: #ffffff;
+                background-color: #000000;
+                border-style: solid;
+                border-radius: 12px;
+                border-color: #ff00ff;
+                padding: 0.1rem;
+                margin: 0.5rem;
+            }
+
+            .boton{
+                width: 10rem;
+                border-radius: 20px;
+                color: #ea00ff;
+            }
+        }
+
+        .buscar-1{
+          color: #ffffff; 
+          background-color: #26042e;
+          border-style: solid;
+          border-radius: 14px;
+          border-color: #ff00ff;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 0.4rem;
+          line-height: none;
+          width: 4rem;
+        }
+
+        .section-2{
+          margin-top: 13%;
+
+          .hr{
+            margin-top: 20%;
+          }
+  
+        }
+
+        .menu li a{
+          margin: 0;
+          margin-top: 0.5rem;
+          padding: 0;
+      }
+}
+
+
+

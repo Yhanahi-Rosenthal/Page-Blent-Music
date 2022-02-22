@@ -1,0 +1,240 @@
+@media screen and (max-width: 768px) {
+    .header{
+
+        h1{
+            font-size: 1.7rem;
+        }
+
+        h4{
+            font-size: 0.8rem;
+        }
+    }
+  
+    .menu{
+        font-size: 0.6rem;
+
+        .menu__menu{
+            display: none;
+        }
+
+        li{
+            a{
+                margin: 0;
+                margin-top: 0.8rem;
+                padding: 0;
+            }
+        }
+        
+    }
+
+    .submenu{
+        position: absolute;
+        background: #942994;
+        width: 120%;
+        display: none;
+        border: 1px;
+        border-style:solid;
+        border-radius: 20px;
+        border-color: #ff53ff;
+    }
+
+    .buscar{
+        margin: 15px;
+        display: grid;
+        justify-content: center;
+        width: 76.9px;
+        height: 17px;
+        font-size: 0.6rem;
+    }
+    
+    .slach{
+        display: none;
+    }
+
+    .menu__user{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 0.49rem;
+    }
+  
+    .h2{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      color: #ffffff;
+    }
+  
+    .especial{
+      color: #ffffff;
+      transition: 0.3s;
+      cursor: pointer;
+
+      img{
+        margin: 0;
+        padding: 0;
+        align-self: center;
+        width: 18rem;
+        height: 10rem;
+      }
+  
+      .especial:hover{
+        box-shadow:0 0.1rem 0.6rem  #ff00ff;
+      }
+    }
+
+    .section-1{
+        animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: #ffffff;
+        margin-top: 8%;
+ 
+        .especial{
+         margin: 1rem;
+         padding: 2rem;
+      }
+
+      div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border: solid;
+        border-style: solid;
+        border-color: #ad00ad;
+        border-radius: 4rem;
+        background-color: #18021b;
+        padding: 2rem;
+        width: 30rem;
+      }
+
+      img{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        object-fit:cover;
+        margin: 0;
+        padding: 0;
+      }
+
+      p{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        text-align: center;
+        font-size: 0.7rem;
+        padding: 0;
+        margin: 0rem;
+      }
+
+      h3{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }
+
+      a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+      }
+    
+    }
+   
+    @keyframes fade-in-bottom {
+         0% {
+           transform: translateY(50px);
+           opacity: 0;
+       }
+       100% {
+         transform: translateY(0);
+         opacity: 1;
+       }
+     }
+  
+    
+    .section-2{
+      margin-top: 13%;
+
+      .hr{
+        margin-top: 20%;
+      }
+    }
+
+    .section .carousel-indicators{
+        text-align: end;
+
+        #carouselExampleCaptions{
+            height: 10rem;
+            width: 30rem;
+            object-fit: cover;
+        }
+
+        .img-carrusel{
+            height: 40vh;
+            width: 180vh;
+            object-fit: cover;
+        }
+
+        p{
+            font-size: 0.5rem;
+        }
+
+        h3{
+            font-size: 1rem;
+        }
+    }
+    
+    
+    .especial{
+        color: #ffffff;
+        padding: 7rem;
+        margin: 7rem;
+        transition: 0.5s;
+        cursor: pointer;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .footer{
+        margin-top: 25%;
+
+        .dire{
+            font-size: 0.5rem;    
+        }
+
+        a{
+            font-size: 0.5rem;
+        }
+
+        .copy{
+            font-size: 0.5rem;
+        }
+    }
+    /* --------------HTML-Nosotros-Responsive------------- */
+
+    .sectionMusic{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* --------html-ayuda-responsive---------- */
+
+    .sectionAyuda{
+        padding: 1rem;
+        margin: 1rem;
+        color: #ffffff;
+        font-size: 0.7rem;
+
+        h2{
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        
+    }
+    
+}

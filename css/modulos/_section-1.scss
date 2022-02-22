@@ -1,0 +1,109 @@
+.section-1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: #ffffff;
+    margin-top: 8%;
+	animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+    .especial{
+        margin: 1rem;
+        padding: 2rem;
+      }
+
+    div{
+        -webkit-animation: color-change-2x 1.5s linear infinite alternate both;
+                animation: color-change-2x 1.5s linear infinite alternate both;
+        display: flex;
+        flex-direction: column;
+        border: solid 2px;
+        border-style: solid;
+        border-color: #ad00ad;
+        border-radius: 4rem;
+        background-color: #18021b;
+        padding: 8rem;
+        width: 20rem;
+      }
+
+    @-webkit-keyframes color-change-2x {
+      0% {
+        border-color: #ff00f2;
+      }
+      100% {
+        border-color: #490b6d;
+      }
+    }
+    @keyframes color-change-2x {
+      0% {
+        border-color: #ff00f2;
+      }
+      100% {
+        border-color: #490b6d;
+      }
+    }
+
+    img{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        object-fit:cover;
+        margin: 0;
+        padding: 0;
+      }
+      
+    p{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.7rem;
+        padding: 0;
+        margin: 0rem;
+      }
+      
+    h3{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }
+      
+    a{
+        text-decoration: none;
+      }
+}
+
+@keyframes fade-in-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+.especial{
+  color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+    
+    .especial:hover{
+        box-shadow:0 0.1rem 0.6rem  #ff00ff;
+        }  
+
+
+     img{
+        margin: 0;
+        padding: 0;
+        align-self: center;
+        width: 18rem;
+        height: 10rem;
+     }
+
+}
+
+.hr{
+    color:#ff00ff;
+    border: solid;
+  }
