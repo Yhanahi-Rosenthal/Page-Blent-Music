@@ -1,74 +1,147 @@
-@media screen and (max-width: 321px) {
-    .sectionMusic{
-        margin: 0;
-        padding: 0;
-    }
+@media screen and (max-width: 376px) {
+    //------------------- nosotros responsive---------------------------------------
 
-    .nosotros--img__1{
-        width: 13rem; 
-        height: 9rem;
-        display: grid;
-        grid-area: 2/2/5/4;
-        justify-content: center;
-    }
-    
-    .nosotros{
-        color: #ffffff;
-        display: grid;
-        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-
-        p{
-            display: grid;
-            text-align: center;
-            grid-area: 7/1/10/10;
-            font-size: 15px;
-        }
-
-        h3{
-            display: grid;
-            grid-area: 1/1/1/9;
-            font-size: 20px;
-            text-align: center;
-        }
-    }
-    
     .nosotros--img{
-        width: 13rem; 
-        height: 10rem;
-        display: grid;
-        grid-area: 2/1/5/4;
+        display: flex;
         justify-content: center;
-    }
-
-    .nosotros--nosotros{
+        align-self: center;
+        width: 14rem;
+        height: 7rem;
+      }
+      
+      .nosotros--img__1{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 14rem;
+        height: 7rem;
+      }
+      
+      .nosotros{
         color: #ffffff;
-        display: grid;
-        grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-
-        .nos--h3{
-            display: grid;
-            grid-area: 1/3/1/8;
-            font-size: 20px;
-            text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+  
+        p{
+          display: flex;
+          justify-content: center;
+          font-size: 0.7rem;
+          text-align: center;
         }
-
-        .nos--p{
-            display: grid;
-            text-align: center;
-            grid-area: 7/1/10/10;
-            font-size: 15px;
+  
+        h3{
+          display: flex;
+          justify-content: center;
+          font-size: 1rem;
+          text-align: center;
         }
-
+      
+        img{
+          animation: tilt-in-right-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          }
+      
+        @keyframes tilt-in-right-1 {
+              0% {
+                transform: rotateX(-30deg) translateX(300px) skewX(30deg);
+                opacity: 0;
+              }
+              100% {
+                transform: rotateX(0deg) translateX(0) skewX(0deg);
+                opacity: 1;
+              }
+            }
+      
+            h3{
+              animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              }
+              
+            p{
+              animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              }
+              
+              @keyframes fade-in-left {
+                0% {
+                  transform: translateX(-50px);
+                  opacity: 0;
+                }
+                100% {
+                  transform: translateX(0);
+                  opacity: 1;
+                }
+              }
+      }
+    
+      /* parrafo del medio del HTML-nosotros*/
+    
+    .nosotros--nosotros{
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  
+      p{
+        display: flex;
+        justify-content: center;
+        font-size: 0.7rem;
+        text-align: center;
+      }
+  
+      h3{
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        text-align: center;
+      }
+      
         .nosotros--img__1{
-            width: 13rem; 
-            height: 10rem;
-            display: grid;
-            grid-area: 2/1/5/4;
-            justify-content: center;
+          display:flex;
         }
-    }
+      
+        img{
+          animation: tilt-in-left-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          }
+          
+          @keyframes tilt-in-left-1 {
+            0% {
+              transform: rotateX(-30deg) translateX(-300px) skewX(-30deg);
+              opacity: 0;
+            }
+            100% {
+              transform: rotateX(0deg) translateX(0) skewX(0deg);
+              opacity: 1;
+            }}
+      
+            .nos--h3{
+              animation: fade-in-right 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              transition: 1s;
+      }
+              }
+              
+            .nos--p{
+              animation: fade-in-right 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              }
+              
+          @keyframes fade-in-right {
+            0% {
+              transform: translateX(50px);
+              opacity: 0;
+            }
+            100% {
+              transform: translateX(0);
+              opacity: 1;
+            }
+         }
+      
+  
+      .sectionMusic{
+          margin: 0;
+          padding: 0;
+  
+          h1{
+            font-size: 1.3rem;
+          }
+      }
 
          /* ----------HTML-INICIAR SESION Y REGRISTRARME---------- */
 
@@ -132,6 +205,22 @@
           margin-top: 0.5rem;
           padding: 0;
       }
+
+      .navegacion .menu input{
+        align-self: center;
+        padding: 0;
+        margin: 0.4rem;
+        width: 3rem;
+        font-size: 0.5rem;
+      }
+    
+      .menu .menu__menu{
+        display: none;
+      }
+       
+       .br{
+           display: none;
+       }
 }
 
 
