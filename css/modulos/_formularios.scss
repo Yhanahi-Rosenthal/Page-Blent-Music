@@ -16,7 +16,7 @@
   }
   
 fieldset{
-    border-color: #ff00ff;
+    border-color: $fuxia-polenta;
     width: 1rem;
     padding: 1rem;
     margin: 4rem 1rem 4rem;
@@ -49,11 +49,11 @@ legend{
       }
   
        .boton:hover{
-            box-shadow:0rem 0.1rem 0.9rem  #ff00ff;;
+            box-shadow:0rem 0.1rem 0.9rem  $fuxia-polenta;
       }
   
        .comentario{
-            border-color: #ff00ff;
+            border-color: $fuxia-polenta;
             border-radius: 16px;
             border-style: solid;
             color: white;
@@ -73,7 +73,7 @@ legend{
         }
   
         ::-webkit-scrollbar-thumb {
-            background-color: #ff00f2;    
+            background-color: $fuxia-polenta;    
             border-radius: 20px;      
             border: 3px solid #000000; 
         }

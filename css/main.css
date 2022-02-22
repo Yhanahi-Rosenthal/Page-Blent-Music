@@ -36,28 +36,28 @@ body::-webkit-scrollbar-thumb {
   font-size: 1.090rem;
 }
 
-.ti {
+.header .ti {
   color: #ffffff;
   text-align: center;
 }
 
-.navegacion {
+.header .navegacion {
   width: 100%;
   margin: 30px auto;
   background-color: #3b0842;
   border-radius: 200rem;
 }
 
-.navegacion ul {
+.header .navegacion ul {
   list-style: none;
 }
 
-.navegacion .menu input {
+.header .navegacion .menu input {
   padding: 0;
   margin-top: 7.5%;
 }
 
-.menu {
+.header .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,15 +66,15 @@ body::-webkit-scrollbar-thumb {
   border: 1px;
   border-style: solid;
   border-radius: 30px;
-  border-color: #ff53ff;
+  border-color: #ff00ff;
 }
 
-.menu > li {
+.header .menu > li {
   position: relative;
   display: inline-block;
 }
 
-.menu > li > a {
+.header .menu > li > a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,24 +85,24 @@ body::-webkit-scrollbar-thumb {
   transition: 1s;
 }
 
-.menu > li > a:hover {
+.header .menu > li > a:hover {
   text-shadow: 0.1rem 0.2rem 1rem #ffffff;
   color: #ffffff;
 }
 
-.slach {
+.header .slach {
   padding: 0px 30px;
   margin: 0;
   color: #ffffff;
   font-size: 2rem;
 }
 
-.registro li {
+.header .registro li {
   display: inline-block;
   position: relative;
 }
 
-.registro li a {
+.header .registro li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,13 +111,13 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
 }
 
-.user {
+.header .user {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   color: white;
 }
 
-.buscar {
+.header .buscar {
   color: #ffffff;
   background-color: #26042e;
   border-style: solid;
@@ -127,7 +127,7 @@ body::-webkit-scrollbar-thumb {
   margin: 0.5rem;
 }
 
-.buscar-1 {
+.header .buscar-1 {
   color: #ffffff;
   background-color: #26042e;
   border-style: solid;
@@ -241,7 +241,7 @@ body::-webkit-scrollbar-thumb {
 
 @-webkit-keyframes color-change-2x {
   0% {
-    border-color: #ff00f2;
+    border-color: #ff00ff;
   }
   100% {
     border-color: #490b6d;
@@ -250,7 +250,7 @@ body::-webkit-scrollbar-thumb {
 
 @keyframes color-change-2x {
   0% {
-    border-color: #ff00f2;
+    border-color: #ff00ff;
   }
   100% {
     border-color: #490b6d;
@@ -332,8 +332,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .especial:hover {
-  -webkit-box-shadow: 0 0.1rem 0.6rem  #ff00ff;
-          box-shadow: 0 0.1rem 0.6rem  #ff00ff;
+  -webkit-box-shadow: 0 0.1rem 0.6rem #ff00ff;
+          box-shadow: 0 0.1rem 0.6rem #ff00ff;
 }
 
 .h2 {
@@ -466,8 +466,8 @@ legend {
 }
 
 .formulario .boton:hover {
-  -webkit-box-shadow: 0rem 0.1rem 0.9rem  #ff00ff;
-          box-shadow: 0rem 0.1rem 0.9rem  #ff00ff;
+  -webkit-box-shadow: 0rem 0.1rem 0.9rem #ff00ff;
+          box-shadow: 0rem 0.1rem 0.9rem #ff00ff;
 }
 
 .formulario .comentario {
@@ -491,7 +491,7 @@ legend {
 }
 
 .formulario ::-webkit-scrollbar-thumb {
-  background-color: #ff00f2;
+  background-color: #ff00ff;
   border-radius: 20px;
   border: 3px solid #000000;
 }

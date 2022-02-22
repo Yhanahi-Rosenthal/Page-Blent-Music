@@ -1,10 +1,12 @@
+@import "./variables";
+
 .section-1{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     color: #ffffff;
     margin-top: 8%;
-	animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: $entrada-de-abajo;
 
     .especial{
         margin: 1rem;
@@ -27,7 +29,7 @@
 
     @-webkit-keyframes color-change-2x {
       0% {
-        border-color: #ff00f2;
+        border-color: $fuxia-polenta;
       }
       100% {
         border-color: #490b6d;
@@ -35,7 +37,7 @@
     }
     @keyframes color-change-2x {
       0% {
-        border-color: #ff00f2;
+        border-color: $fuxia-polenta;
       }
       100% {
         border-color: #490b6d;
@@ -99,7 +101,7 @@
 }
 
 .especial:hover{
-        box-shadow:0 0.1rem 0.6rem  #ff00ff;
+        box-shadow: $luz-sombra;
         }  
 
 .h2{
@@ -111,6 +113,6 @@
 }
 
 .hr{
-    color:#ff00ff;
+    color:$fuxia-polenta;
     border: solid;
   }
