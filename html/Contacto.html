@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
     <link rel = "preconnect" href = "https://fonts.googleapis.com">
     <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,64 @@
         <h4 class="ti">El sitio donde todos estamos bien</h4>
         <nav class="navegacion">
             <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>   
+                <nav class="navbar navbar-white bg-dark">
+                    <button class="navbar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                    </button>
+                    <div class="offcanvas offcanvas-start bg-black" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><Menu></Menu></h5>
+                        <button type="button" class="btn-close text-reset bg-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                          <li class="nav-item">
+                            <a class="nav-link active link-light" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li>
+                            <hr class="dropdown-divider bg-white">
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active link-light" href="Ayuda.html">Ayuda</a>
+                          </li>
+                          <li>
+                            <hr class="dropdown-divider bg-white">
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active link-light" href="Nosotros.html">Nosotros</a>
+                          </li>
+                          <li>
+                            <hr class="dropdown-divider bg-white">
+                          </li>
+                          <li class="nav-item link-light">
+                            <a class="nav-link active link-light" href="Contacto.html">Contacto</a>
+                          </li>
+                          <li>
+                            <hr class="dropdown-divider bg-white">
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle link-light" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Entrar
+                            </a>
+                            <ul class="dropdown-menu bg-black" aria-labelledby="offcanvasNavbarDropdown">
+                              <li><a class="dropdown-item link-light" href="Iniciar-Sesion.html">Iniciar Sesion</a></li>
+                              <li>
+                                <hr class="dropdown-divider bg-white">
+                              </li>
+                              <li><a class="dropdown-item link-light" href="registrarme.html">Registrarse</a></li>
+                            </ul>
+                            <li>
+                              <hr class="dropdown-divider bg-white">
+                            </li>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+                <li class="menu__menu"><a href="../index.html">Inicio</a></li>   
                 <li class="menu__menu"><a href="Ayuda.html">Ayuda</a></li>
                 <li class="menu__menu"><a href="Nosotros.html">Nosotros</a></li>
                 <li class="menu__menu"><a href="Contacto.html">Contacto</a></li>
@@ -24,13 +82,13 @@
                     <input type="search" name="Buscar" placeholder="Buscar" class="buscar">
                 </div>
                 <p class="slach">|</p>
-                <li class="menu__user"><a href="Iniciar-Sesion.html">Iniciar Sesión</a></li> 
-                <li class="menu__user"><a href="registrarme.html">Registrarme</a></li>           
+                <li class="menu__menu"><a href="Iniciar-Sesion.html">Iniciar Sesión</a></li> 
+                <li class="menu__menu"><a href="registrarme.html">Registrarme</a></li>           
             </ul>       
     </header>
     <main>
         <section class="sectionform">
-            <fieldset>
+            <div class="sectionform-div">
                 <legend>Contactanos</legend>
                 <ul class="formulario">
                   <form action="form">
@@ -54,7 +112,7 @@
                       </div>
                     </form>
                 </ul>
-            </fieldset>
+            </div>
         </section>
     </main>
     <footer class="footer">

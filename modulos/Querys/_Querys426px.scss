@@ -1,9 +1,20 @@
 @media screen and (max-width: 426px) {
     /* --------------HTML-Nosotros-Responsive------------- */
+    .sectionMusic{
+      ul{
+        padding: 0;
+      }
+
+      h1{
+        margin-bottom: 4rem;
+      }
+    }
+
     .nosotros--img{
       display: flex;
       justify-content: center;
       align-self: center;
+      margin-bottom: 3rem;
       width: 16rem;
       height: 9rem;
     }
@@ -175,14 +186,24 @@
 
    .navegacion .menu input{
     padding: 0;
-    margin-top: 0.8rem;
-    margin: 0.4rem;
-    width: 3rem;
+    margin: 0.7rem;
+    width: 6rem;
+    height: 1rem;
     font-size: 0.5rem;
   }
 
-  .menu .menu_menu{
+  .menu .menu__menu{
     display: none;
+  }
+
+  .menu .navbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    border: none;
   }
    
    .br{
@@ -255,17 +276,17 @@
        }
    }
 
-   .buscar-1{
-     color: #ffffff; 
-     background-color: #26042e;
-     border-style: solid;
-     border-radius: 14px;
-     border-color: #ff00ff;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     font-size: 0.4rem;
-     line-height: none;
-     width: 4rem;
-   }
+    .buscar-1{
+      color: #ffffff; 
+      background-color: #26042e;
+      border-style: solid;
+      border-radius: 14px;
+      border-color: #ff00ff;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 0.4rem;
+      line-height: none;
+      width: rem;
+    }
 
    .section-2{
      margin-top: 13%;
@@ -276,6 +297,6 @@
    }
 
    .footer{
-       margin-top: 50%;
+       margin-top: 20%;
    }
 }
