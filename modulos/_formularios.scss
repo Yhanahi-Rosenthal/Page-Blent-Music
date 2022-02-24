@@ -4,9 +4,9 @@
     justify-content: center;
 
     &-div{
-      padding: 1rem;
       border: solid 1px;
       border-color: $fuxia-polenta;
+      border-radius: 15px;
     }
 
     legend{
@@ -26,12 +26,6 @@
     }
   }
   
-fieldset{
-    border-color: $fuxia-polenta;
-    width: 1rem;
-    padding: 1rem;
-    margin: 4rem 1rem 4rem;
-  }
   
 legend{
     color: #ffffff;
@@ -42,13 +36,18 @@ legend{
     color: #ffffff;
   
       input{
-        color: #ffffff;
-        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        color: #ffffff; 
+        background-color: #26042e;
         border-style: solid;
-        border-radius: 12px;
-        border-color: #ff00ff;
-        padding: 0.1rem;
-        margin: 0.5rem 1rem;
+        border-radius: 14px;
+        border-color: $fuxia-polenta;
+        margin: 0.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 0.8rem;
+        line-height: none;
+        width: 11rem;
       }
   
       .boton{
