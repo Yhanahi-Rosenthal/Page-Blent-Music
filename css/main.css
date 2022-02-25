@@ -1,6 +1,11 @@
 body {
+  font-family: 'Vollkorn', serif;
+}
+
+body {
   margin: 0;
   background-color: #000000;
+  font-family: 'Vollkorn', serif;
 }
 
 body::-webkit-scrollbar {
@@ -1280,6 +1285,9 @@ legend {
   .menu .navbar {
     display: none;
   }
+  .br-1 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1487,7 +1495,7 @@ legend {
     margin-top: 13%;
   }
   .section-2 .hr {
-    margin-top: 20%;
+    display: none;
   }
   .section .carousel-indicators {
     text-align: end;
@@ -2147,7 +2155,7 @@ legend {
     margin-top: 13%;
   }
   .section-2 .hr {
-    margin-top: 20%;
+    display: none;
   }
   .footer {
     margin-top: 20%;
@@ -2425,7 +2433,7 @@ legend {
     margin-top: 13%;
   }
   .section-2 .hr {
-    margin-top: 20%;
+    display: none;
   }
   .menu li a {
     margin: 0;
