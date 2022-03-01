@@ -16,15 +16,15 @@
     div{
         -webkit-animation: color-change-2x 1.5s linear infinite alternate both;
                 animation: color-change-2x 1.5s linear infinite alternate both;
-        display: flex;
-        flex-direction: column;
-        border: solid 2px;
-        border-style: solid;
-        border-color: #ad00ad;
-        border-radius: 4rem;
-        background-color: #18021b;
-        padding: 8rem;
-        width: 20rem;
+        display: map-get($div-1, display);
+        flex-direction: map-get($div-1, flex-direction);
+        border: map-get($div-1, border);
+        border-style: map-get($div-1 , border-style);
+        border-color: map-get($div-1, border-color);
+        border-radius: map-get($div-1 , border-radius);
+        background-color: map-get($div-1 , background-color);
+        padding: map-get($div-1 , padding);
+        width: map-get($div-1 , width);
       }
 
     @-webkit-keyframes color-change-2x {
