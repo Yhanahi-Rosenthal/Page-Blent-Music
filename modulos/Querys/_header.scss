@@ -36,7 +36,6 @@
 .menu{
     display: flex;
     justify-content: space-around;
-    padding: 0 0.3rem;
     border: 1px;
     border-style:solid;
     border-radius: 30px;
@@ -49,7 +48,7 @@
 
 .menu > li > a{
     display: flex;
-    padding: 17px 0px;
+    padding: 17px 0rem;
     color: #f0f0f0;
     text-decoration: none;
     transition: 1s;
@@ -107,5 +106,4 @@
     font-size: 0.8rem;
     line-height: none;
     width: 11rem;
-}
-}
+  }

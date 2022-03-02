@@ -53,12 +53,36 @@ legend{
       .boton{
           width: 10rem;
           border-radius: 20px;
-          color: #ea00ff;
+          color: #ffffff;
           transition: 0.5s;
       }
-  
-       .boton:hover{
-            box-shadow:0rem 0.1rem 0.9rem  $fuxia-polenta;
+
+      .boton-R{
+        @extend .boton;
+          background-color: #5f0172;
+          height: 2rem;
+      }
+
+      .boton-B{
+       @extend .boton;
+         background-color:#3e0649;        
+      }
+
+      .boton-C{
+        @extend .boton;
+        background-color: #5f0172;
+      }
+
+      .boton-R:hover{
+        box-shadow:0rem 0.1rem 0.9rem  $fuxia-polenta;
+      }
+
+      .boton-B:hover{
+        box-shadow:0rem 0.1rem 0.9rem  $fuxia-polenta;
+      }
+
+      .boton-C:hover{
+        box-shadow:0rem 0.1rem 0.9rem  $fuxia-polenta;
       }
   
        .comentario{

@@ -287,7 +287,7 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   padding: 0;
   margin: 0rem;
 }
@@ -319,7 +319,6 @@ body::-webkit-scrollbar-thumb {
   color: #ffffff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  cursor: pointer;
 }
 
 .especial img {
@@ -403,7 +402,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  color: #574a4a;
+  color: #ffffff;
   font-size: 16px;
 }
 
@@ -470,15 +469,38 @@ legend {
   width: 11rem;
 }
 
-.formulario .boton {
+.formulario .boton, .formulario .boton-R, .formulario .boton-B, .formulario .boton-C {
   width: 10rem;
   border-radius: 20px;
-  color: #ea00ff;
+  color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.formulario .boton:hover {
+.formulario .boton-R {
+  background-color: #5f0172;
+  height: 2rem;
+}
+
+.formulario .boton-B {
+  background-color: #3e0649;
+}
+
+.formulario .boton-C {
+  background-color: #5f0172;
+}
+
+.formulario .boton-R:hover {
+  -webkit-box-shadow: 0rem 0.1rem 0.9rem #ff00ff;
+          box-shadow: 0rem 0.1rem 0.9rem #ff00ff;
+}
+
+.formulario .boton-B:hover {
+  -webkit-box-shadow: 0rem 0.1rem 0.9rem #ff00ff;
+          box-shadow: 0rem 0.1rem 0.9rem #ff00ff;
+}
+
+.formulario .boton-C:hover {
   -webkit-box-shadow: 0rem 0.1rem 0.9rem #ff00ff;
           box-shadow: 0rem 0.1rem 0.9rem #ff00ff;
 }
@@ -2451,7 +2473,7 @@ legend {
   .formulario {
     color: #ffffff;
   }
-  .formulario .boton {
+  .formulario .boton, .formulario .boton-R, .formulario .boton-B, .formulario .boton-C {
     width: 10rem;
     border-radius: 20px;
     color: #ea00ff;
@@ -2465,7 +2487,7 @@ legend {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .formulario .boton:hover {
+  .formulario .boton:hover, .formulario .boton-R:hover, .formulario .boton-B:hover, .formulario .boton-C:hover {
     -webkit-box-shadow: 0rem 0.1rem 0.9rem  #ff00ff;
             box-shadow: 0rem 0.1rem 0.9rem  #ff00ff;
   }
@@ -2916,7 +2938,7 @@ legend {
     padding: 0.1rem;
     margin: 0.5rem;
   }
-  .formulario .boton {
+  .formulario .boton, .formulario .boton-R, .formulario .boton-B, .formulario .boton-C {
     width: 10rem;
     border-radius: 20px;
     color: #ea00ff;
