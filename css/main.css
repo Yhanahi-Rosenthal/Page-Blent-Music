@@ -388,6 +388,22 @@ body::-webkit-scrollbar-thumb {
   transition: 0.5s;
 }
 
+.footer .redes--instagram {
+  color: #ff00ff;
+}
+
+.footer .redes--facebook {
+  color: #ce63f8;
+}
+
+.footer .redes--mail {
+  color: #ff00ff;
+}
+
+.footer .redes--inicio {
+  color: #ff00ff;
+}
+
 .footer a:hover {
   color: rgba(255, 255, 255, 0.8);
   font-size: 0.9rem;

@@ -23,6 +23,20 @@
         transition: 0.5s;
     }
 
+    $colores: (
+        "instagram" : #ff00ff,
+        "facebook": #ce63f8,
+        "mail": #ff00ff, 
+        "inicio":#ff00ff );
+
+    @each $red, $color in $colores {
+        .redes--#{$red}{
+            color:#{$color};
+        }
+        
+    }
+   
+
     a:hover{
         color: rgba(255, 255, 255, 0.8);
         font-size: 0.9rem;

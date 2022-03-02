@@ -1,12 +1,17 @@
 @import "./variables";
 
-.section-1{
+@mixin flex-row-color-animation{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     color: #ffffff;
     margin-top: 8%;
-	animation: $entrada-de-abajo;
+	  animation: $entrada-de-abajo;
+}
+
+.section-1 {
+   
+  @include flex-row-color-animation;
 
     .especial{
         margin: 1rem;
