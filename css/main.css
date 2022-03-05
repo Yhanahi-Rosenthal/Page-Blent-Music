@@ -24,8 +24,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header {
-  font-family: 'Times New Roman', Times, serif;
-  important: !important;
+  font-family: 'Times New Roman', Times, serif !important;
 }
 
 .header h1 {
